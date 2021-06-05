@@ -9,12 +9,14 @@ const HobbitSettlement = class {
 	}
 };
 
+const bree = new HobbitSettlement('Bree', 473, 'Atanatári who did not reach Beleriand');
+
 var statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
 
-import  { theShire } from './another-module.js';
+import  {theShire} from './another-module.js';
 
-import { buckland } from './another-module.js';
+import {buckland} from './another-module.js';
 
-export { theShire };
-export { statement };
+export {theShire};
+export {statement};
