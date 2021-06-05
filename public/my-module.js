@@ -9,7 +9,12 @@ const HobbitSettlement = class {
 	}
 };
 
-import { HobbitSettlement } from './another-modules.js';
+var statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
-export {theShire};
-export {statement};
+
+import  { theShire } from './another-module.js';
+
+import { buckland } from './another-module.js';
+
+export { theShire };
+export { statement };
